@@ -1,0 +1,17 @@
+{
+  "name": "useoctonode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2",
+    "octonode": "^0.7.6"
+  }
+}
