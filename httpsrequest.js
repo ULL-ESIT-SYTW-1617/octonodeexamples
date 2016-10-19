@@ -10,7 +10,7 @@ var options = {
   method: 'GET'
 };
 
-var req = https.request(options, function(res) {
+var req = https.get(options, function(res) {
   console.log(res.statusCode);
   res.on('data', function(d) {
     process.stdout.write(d);
